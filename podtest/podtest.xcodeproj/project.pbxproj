@@ -14,6 +14,7 @@
 		D1D7CA241B1F257E00AB26E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D7CA231B1F257E00AB26E2 /* Images.xcassets */; };
 		D1D7CA271B1F257E00AB26E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D7CA251B1F257E00AB26E2 /* LaunchScreen.xib */; };
 		D1D7CA331B1F257E00AB26E2 /* podtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D7CA321B1F257E00AB26E2 /* podtestTests.m */; };
+		D1D7CA3F1B1F260000AB26E2 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D7CA3E1B1F260000AB26E2 /* TestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D1D7CA2C1B1F257E00AB26E2 /* podtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D7CA311B1F257E00AB26E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D7CA321B1F257E00AB26E2 /* podtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podtestTests.m; sourceTree = "<group>"; };
+		D1D7CA3D1B1F260000AB26E2 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		D1D7CA3E1B1F260000AB26E2 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 		D1D7CA3C1B1F25CF00AB26E2 /* PodLib */ = {
 			isa = PBXGroup;
 			children = (
+				D1D7CA3D1B1F260000AB26E2 /* TestController.h */,
+				D1D7CA3E1B1F260000AB26E2 /* TestController.m */,
 			);
 			path = PodLib;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				D1D7CA1F1B1F257D00AB26E2 /* ViewController.m in Sources */,
 				D1D7CA1C1B1F257D00AB26E2 /* AppDelegate.m in Sources */,
 				D1D7CA191B1F257D00AB26E2 /* main.m in Sources */,
+				D1D7CA3F1B1F260000AB26E2 /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
