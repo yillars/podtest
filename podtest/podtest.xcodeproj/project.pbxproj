@@ -81,6 +81,7 @@
 		D1D7CA151B1F257D00AB26E2 /* podtest */ = {
 			isa = PBXGroup;
 			children = (
+				D1D7CA3C1B1F25CF00AB26E2 /* PodLib */,
 				D1D7CA1A1B1F257D00AB26E2 /* AppDelegate.h */,
 				D1D7CA1B1B1F257D00AB26E2 /* AppDelegate.m */,
 				D1D7CA1D1B1F257D00AB26E2 /* ViewController.h */,
@@ -117,6 +118,13 @@
 				D1D7CA311B1F257E00AB26E2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1D7CA3C1B1F25CF00AB26E2 /* PodLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PodLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
